@@ -31,8 +31,8 @@ p {
   padding-top: 277px;
   padding-bottom: 150px;
   background-color: #0f131e;
-  background-image: -webkit-linear-gradient(270deg, rgba(133, 216, 147, 0.45), rgba(255, 255, 255, 0.99)), url('../images/bg.jpg');
-  background-image: linear-gradient(180deg,  rgba(133, 216, 147, 0.45), rgba(253, 253, 253, 0.99)), url('../images/bg.jpg');
+  background-image: -webkit-linear-gradient(270deg, rgba(44, 112, 175, 0.45), rgba(255, 255, 255, 0.99)), url('../images/bg.jpg');
+  background-image: linear-gradient(180deg,  rgba(44, 112, 175, 0.45), rgba(253, 253, 253, 0.99)), url('../images/bg.jpg');
   background-position: 0px 0px, 50% 0px;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -518,7 +518,7 @@ p {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  background-color: #ec2a3f;
+  background-color: rgba(23, 95, 163, 0.45);
 }
 
 .nasa-logo {
@@ -544,7 +544,11 @@ p {
 }
 
 .div-block-3 {
-  width: 19%;
+  width: 10%;
+}
+
+.div-block-5 {
+  width: 30%;
 }
 
 .div-block-3.extended {
