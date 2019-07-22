@@ -142,16 +142,17 @@ p {
   font-family: Lato, sans-serif;
   color: #fff;
   line-height: 1em;
-  font-weight: 900;
+  /* font-weight: 900; */
   letter-spacing: 3px;
   text-shadow: 1px 1px 19px #000;
 }
 
 .heading {
   font-family: futura-pt, sans-serif;
-  font-size: 5vw;
+  font-size: 500%;
   line-height: 0.9em;
-  font-weight: 700;
+  /* width: 90%; */
+  /* font-weight: 900; */
 }
 
 .text-block {
@@ -394,6 +395,8 @@ p {
   display: flex;
   width: 100%;
   clear: left;
+  /* background-image: -webkit-linear-gradient(270deg, rgba(255, 255, 255, 0.99)), rgba(44, 175, 109, 0.45),  url('../images/bg.jpg');
+  background-image: linear-gradient(180deg,  rgba(253, 253, 253, 0.99)), rgba(44, 175, 109, 0.45),  url('../images/bg.jpg'); */
 }
 
 .left-side-content {
@@ -476,21 +479,38 @@ p {
 
 .reborn-image {
   position: relative;
+  position: relative;
   width: 100%;
   padding-bottom: 150%;
-  background-image: url('../images/dead-x.png');
+  background-image: url('../images/zombie.png');
   background-position: 50% 100%;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
+
+/* .hero-section {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  padding-top: 277px;
+  padding-bottom: 150px;
+  background-color: #0f131e;
+  background-image: -webkit-linear-gradient(270deg, rgba(44, 112, 175, 0.45), rgba(255, 255, 255, 0.99)), url('../images/bg.jpg');
+  background-image: linear-gradient(180deg,  rgba(44, 112, 175, 0.45), rgba(253, 253, 253, 0.99)), url('../images/bg.jpg');
+  background-position: 0px 0px, 50% 0px;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, fixed;
+} */
 
 .inter-image {
   position: relative;
   width: 100%;
   padding-bottom: 150%;
-  background-image: url('../images/inter-x.png');
+  background-image: url('../images/spaceship.png');
   background-position: 50% 100%;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
@@ -498,9 +518,9 @@ p {
   position: relative;
   width: 100%;
   padding-bottom: 150%;
-  background-image: url('../images/dasheng-x.png');
+  background-image: url('../images/eyes.png');
   background-position: 50% 100%;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
