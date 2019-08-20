@@ -149,7 +149,7 @@ p {
 
 .heading {
   font-family: futura-pt, sans-serif;
-  font-size: 500%;
+  font-size: 300%;
   line-height: 0.9em;
   /* width: 90%; */
   /* font-weight: 900; */
@@ -481,7 +481,7 @@ p {
   position: relative;
   position: relative;
   width: 100%;
-  padding-bottom: 150%;
+  padding-bottom: 100%;
   background-image: url('../images/zombie.png');
   background-position: 50% 100%;
   background-size: 100%;
@@ -507,7 +507,7 @@ p {
 .inter-image {
   position: relative;
   width: 100%;
-  padding-bottom: 150%;
+  padding-bottom: 100%;
   background-image: url('../images/spaceship.png');
   background-position: 50% 100%;
   background-size: 100%;
@@ -517,7 +517,7 @@ p {
 .dasheng-image {
   position: relative;
   width: 100%;
-  padding-bottom: 150%;
+  padding-bottom: 100%;
   background-image: url('../images/eyes.png');
   background-position: 50% 100%;
   background-size: 100%;
